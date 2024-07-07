@@ -1,0 +1,34 @@
+.wrapper {
+  height: 100%;
+  align-items: center;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+
+  button {
+    word-wrap: break-word;
+
+    &.correct {
+      background-color: green;
+      color: white;
+    }
+    &.incorrect {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+
+p {
+  margin: 2em 0;
+}
+
+.params {
+  font-style: italic;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-right: 1em;
+}

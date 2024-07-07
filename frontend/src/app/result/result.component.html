@@ -1,0 +1,12 @@
+<div class="wrapper column">
+    <h2>Résultats</h2>
+    <p>Vous avez obtenu une note de {{ score }} sur {{ total }}.</p>
+    <button mat-stroked-button (click)="goBackHome()">
+        <mat-icon fontIcon="home"></mat-icon>
+        Retour
+    </button>
+    <div class="params">
+        Quiz sur l'Euro {{ euroYear }} généré avec {{ model.viewValue }}
+    </div>
+</div>
+

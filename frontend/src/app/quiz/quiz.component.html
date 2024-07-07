@@ -1,0 +1,30 @@
+<div *ngIf="!currentQuestion" class="wrapper column full-center">
+    <mat-spinner></mat-spinner>
+    <p>Chargement du quiz avec {{ model.viewValue }}...</p>
+</div>
+
+<div *ngIf="currentQuestion" class="wrapper column">
+    <h2>{{ currentQuestion.question }}</h2>
+    <div class="options">
+        <button
+            mat-stroked-button 
+            *ngFor="let option of currentQuestion.options"
+            (click)="selectOption(option)"
+            [ngClass]="{
+                'correct': answered && option.isCorrect,
+                'incorrect': answered && option === selectedOption && !option.isCorrect
+            }"
+            [disabled]="answered">
+            {{ option.text }}
+        </button>
+    </div>
+    <p *ngIf="answered">{{ currentQuestion.context }}</p>
+    <button mat-stroked-button *ngIf="answered" (click)="nextQuestion()">
+        <mat-icon fontIcon="navigate_next"></mat-icon>
+        {{ currentQuestionIndex === questions.length - 1 ? 'Voir les résultats' : 'Question suivante' }}
+    </button>
+    <div class="params">
+        Quiz sur l'Euro {{ euroYear }} généré avec {{ model.viewValue }}
+    </div>
+</div>
+  

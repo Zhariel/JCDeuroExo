@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Quel pays a remporté l'Euro 2020 ?",
+    "options": [
+      {
+        "text": "Allemagne",
+        "isCorrect": false
+      },
+      {
+        "text": "Italie",
+        "isCorrect": true
+      },
+      {
+        "text": "Espagne",
+        "isCorrect": false
+      },
+      {
+        "text": "Angleterre",
+        "isCorrect": false
+      }
+    ],
+    "context": "L'Italie a remporté l'Euro 2020 en battant l'Angleterre lors de la finale qui s'est déroulée au stade de Wembley à Londres."
+  },
+  {
+    "question": "Dans quelle ville s'est jouée la finale de l'Euro 2020 ?",
+    "options": [
+      {
+        "text": "Rome",
+        "isCorrect": false
+      },
+      {
+        "text": "Paris",
+        "isCorrect": false
+      },
+      {
+        "text": "Londres",
+        "isCorrect": true
+      },
+      {
+        "text": "Berlin",
+        "isCorrect": false
+      }
+    ],
+    "context": "Bien que l'Euro 2020 ait été organisé dans plusieurs villes à travers l'Europe, la finale a eu lieu au stade de Wembley à Londres."
+  },
+  {
+    "question": "Quel joueur a été élu meilleur joueur de l'Euro 2020 ?",
+    "options": [
+      {
+        "text": "Harry Kane",
+        "isCorrect": false
+      },
+      {
+        "text": "Gianluigi Donnarumma",
+        "isCorrect": true
+      },
+      {
+        "text": "Cristiano Ronaldo",
+        "isCorrect": false
+      },
+      {
+        "text": "Kylian Mbappé",
+        "isCorrect": false
+      }
+    ],
+    "context": "Gianluigi Donnarumma, gardien de but italien, a été élu meilleur joueur de l'Euro 2020 après une performance exceptionnelle tout au long du tournoi."
+  },
+  {
+    "question": "Quel pays a marqué le plus de buts lors de l'Euro 2020 ?",
+    "options": [
+      {
+        "text": "France",
+        "isCorrect": false
+      },
+      {
+        "text": "Espagne",
+        "isCorrect": false
+      },
+      {
+        "text": "Allemagne",
+        "isCorrect": false
+      },
+      {
+        "text": "Belgique",
+        "isCorrect": true
+      }
+    ],
+    "context": "La Belgique a marqué 14 buts lors de l'Euro 2020, plus que toute autre équipe."
+  },
+  {
+    "question": "Quel pays a été le premier à se qualifier pour les huitièmes de finale de l'Euro 2020 ?",
+    "options": [
+      {
+        "text": "Italie",
+        "isCorrect": true
+      },
+      {
+        "text": "Angleterre",
+        "isCorrect": false
+      },
+      {
+        "text": "Allemagne",
+        "isCorrect": false
+      },
+      {
+        "text": "France",
+        "isCorrect": false
+      }
+    ],
+    "context": "L'Italie a été la première équipe à se qualifier pour les huitièmes de finale de l'Euro 2020 après avoir remporté ses trois matchs de groupe."
+  }
+]
