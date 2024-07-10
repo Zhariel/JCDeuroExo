@@ -37,7 +37,7 @@ def generate_quiz(model: str, euroYear: int):
             with open("mockQuestions.json", "r") as file:
                 questions = json.load(file)
             logger.info("Quiz generated from mockQuestions.json")
-            return questions
+            return questions["quiz"]
 
         except FileNotFoundError:
             logger.error("mockQuestions.json file not found.")

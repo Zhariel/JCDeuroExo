@@ -7,13 +7,6 @@ import { Question } from '../models/quiz.model';
   providedIn: 'root',
 })
 export class QuizGenerationService {
-  // private apiUrl = '/mockQuestions.json';
-
-  // constructor(private http: HttpClient) {}
-
-  // generateQuiz(euroYear: number, model: string): Observable<Question[]> {
-  //   return this.http.get<Question[]>(this.apiUrl);
-
   private apiUrl = 'http://localhost:8000/';
 
   constructor(private http: HttpClient) {}

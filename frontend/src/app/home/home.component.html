@@ -1,22 +1,27 @@
 <div class="wrapper row full-center">
-    <div class="select-wrapper column">
-        <mat-form-field subscriptSizing="dynamic">
-            <mat-label>Euro</mat-label>
-            <mat-select [(value)]="euroYear">
-                <mat-option *ngFor="let year of availableEuroYears" [value]="year">{{ year }}</mat-option>
-            </mat-select>
-        </mat-form-field>
-        <mat-form-field subscriptSizing="dynamic">
-            <mat-label>Modèle</mat-label>
-            <mat-select [(value)]="modelValue">
-                <mat-option *ngFor="let model of availableModels" [value]="model.value">{{ model.viewValue }}</mat-option>
-            </mat-select>
-        </mat-form-field>
-    </div>
+  <div class="select-wrapper column">
+    <mat-form-field subscriptSizing="dynamic">
+      <mat-label>Euro</mat-label>
+      <mat-select [(value)]="euroYear">
+        <mat-option *ngFor="let year of availableEuroYears" [value]="year">{{
+          year
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field subscriptSizing="dynamic">
+      <mat-label>Modèle</mat-label>
+      <mat-select [(value)]="modelValue">
+        <mat-option
+          *ngFor="let model of availableModels"
+          [value]="model.value"
+          >{{ model.viewValue }}</mat-option
+        >
+      </mat-select>
+    </mat-form-field>
+  </div>
 
-    <button mat-stroked-button (click)="startQuiz()">
-        <mat-icon fontIcon="navigate_next"></mat-icon>
-        Commencer le quiz
-    </button>
+  <button mat-stroked-button (click)="startQuiz()">
+    <mat-icon fontIcon="navigate_next"></mat-icon>
+    Commencer le quiz
+  </button>
 </div>
-  
