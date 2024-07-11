@@ -1,6 +1,6 @@
 # JCDEuro
 cle open ai
-sk-proj-ZW7ZGqj6w9zlSAI7N75GT3BlbkFJwwnnD34d9JUdmcSy77vw
+sk-proj-TjddBHxgClIVcGRup9ePT3BlbkFJj35HyubbySV75SZBGTLB
 
 **<span style="color:red;">Suivre les instructions des sections [Prérequis](#prérequis) et [Installation](#installation) avant les ateliers du jeudi 11 juillet.</span>**
 
