@@ -38,7 +38,7 @@ def generate_quiz(model: str, euroYear: int):
         while not questions:
             logger.info("Sending to local Ollama server, waiting for response...")
 
-            response = ollama.generate(model="mistral", prompt=f"cree a quiz sur l'euro {euroYear}", format="json")
+            response = ollama.generate(model="mistral", prompt=f"cree a quiz sur l'euro {euroYear}")
 
         return response
 
