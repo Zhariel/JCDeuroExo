@@ -1,0 +1,24 @@
+prompts: ["prompt.txt", "prompt-2.txt"]
+
+providers:
+  - id: "openai:gpt-4o"
+    config:
+        response_format: { type: "json_object" }
+  - id: "ollama:mistral"
+
+tests:
+  - vars:
+      euroYear: 2021
+    assert:
+      - type: is-json
+  - vars:
+      euroYear: 2022
+    assert:
+      - type: is-json
+  - vars:
+      euroYear: 2023
+    assert:
+      - type: is-json
+
+
+
