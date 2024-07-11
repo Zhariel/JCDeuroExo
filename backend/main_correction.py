@@ -3,7 +3,6 @@ import logging
 from datetime import datetime
 
 import fastapi
-import jsonschema
 import ollama
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
@@ -39,30 +38,23 @@ def generate_quiz(model: str, euroYear: int):
         while not questions:
             logger.info("Sending to local Ollama server, waiting for response...")
 
-            start_time = datetime.now()
             response = ollama.generate(model="mistral", prompt=f"cree a quiz sur l'euro {euroYear}", format="json")
-            end_time = datetime.now()
 
-            questions_str = response["response"]
-
-            logger.info(f"Ollama answer received in {end_time - start_time}")
-        return questions["quiz"]
+        return response
 
     if model == "gpt-4o":
         logger.info("Sending to GPT-4o API, waiting for response...")
 
-        start_time = datetime.now()
         completion = client.chat.completions.create(
             model="gpt-4o",
-            messages=[{f'role": "user", "content": f"cree a quiz sur l'euro {euroYear}"}],
+            messages=[{"role": "user", "content": f"cree a quiz sur l'euro {euroYear}"}],
             #response_format={"type": "json_object"},
         )
-        end_time = datetime.now()
 
         questions_str = completion.choices[0].message.content
 
-        logger.info(f"GPT-4o answer received in {end_time - start_time}")
-        return questions["quiz"]
+        logger.info(f"GPT-4o answer received")
+        return questions_str
 
     if model == "mock":
         try:
