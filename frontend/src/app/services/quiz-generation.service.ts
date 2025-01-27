@@ -11,9 +11,9 @@ export class QuizGenerationService {
 
   constructor(private http: HttpClient) {}
 
-  generateQuiz(euroYear: number, model: string): Observable<Question[]> {
+  generateQuiz(euroYear: number, model: string, enableRAG: boolean): Observable<Question[]> {
     return this.http.get<Question[]>(
-      `${this.apiUrl}?model=${model}&euroYear=${euroYear}`
+      `${this.apiUrl}?model=${model}&euroYear=${euroYear}&enableRAG=${enableRAG}`
     );
   }
 }

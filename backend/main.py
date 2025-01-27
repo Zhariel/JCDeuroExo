@@ -1,8 +1,10 @@
+import os
 import json
 import logging
 
 import fastapi
 from fastapi.middleware.cors import CORSMiddleware
+from mistral_handler import query_mistral
 
 # Configure logging
 logging.basicConfig(
@@ -23,14 +25,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+rag_data_cache = {}
 
 @app.get("/")
-def generate_quiz(model: str, euroYear: int):
+def generate_quiz(model: str, euroYear: int, enableRAG: bool):
+    print(enableRAG)
+    use_rag = True
     if model == "mistral":
-        ...
+        try:
+            logger.info("Generating quiz with mistral")
+            quiz = query_mistral(euroYear, rag_data_cache, use_rag)
+            logger.info("Done generating quiz")
+            return quiz["quiz"]
+        except Exception as e:
+            logger.error(e)
+            return None
 
     if model == "gpt-4o":
-        ...
+        pass
 
     if model == "mock":
         try:

@@ -23,6 +23,7 @@ import { Router } from '@angular/router';
 })
 export class QuizComponent implements OnInit {
   euroYear: number = 2020;
+  enableRAG: boolean = true
   model: Model = { value: 'mistral', viewValue: 'Mistral 7B' };
   questions: Question[] = [];
   currentQuestionIndex: number = 0;
@@ -55,7 +56,7 @@ export class QuizComponent implements OnInit {
 
   private generateQuiz(): void {
     this.quizGenerationService
-      .generateQuiz(this.euroYear, this.model.value)
+      .generateQuiz(this.euroYear, this.model.value, this.enableRAG)
       .subscribe((questions) => {
         this.questions = questions;
         this.currentQuestion = this.questions[this.currentQuestionIndex];

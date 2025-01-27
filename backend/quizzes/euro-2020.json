@@ -1,0 +1,114 @@
+{
+"quiz": [
+    {
+    "question": "Quel pays a gagné l'Euro 2020 ?",
+    "options": [
+        {
+        "text": "Angleterre",
+        "isCorrect": false
+        },
+        {
+        "text": "Italie",
+        "isCorrect": true
+        },
+        {
+        "text": "Allemagne",
+        "isCorrect": false
+        },
+        {
+        "text": "Espagne",
+        "isCorrect": false
+        }
+    ],
+    "context": "L'équipe d'Italie a gagné la finale de l'Euro 2020 en battant l'Angleterre aux tirs au but."
+    },
+    {
+    "question": "Quel était le premier pays à organiser une Coupe du Monde ou une Coupe d'Europe ?",
+    "options": [
+        {
+        "text": "France",
+        "isCorrect": true
+        },
+        {
+        "text": "Angleterre",
+        "isCorrect": false
+        },
+        {
+        "text": "Allemagne",
+        "isCorrect": false
+        },
+        {
+        "text": "Italie",
+        "isCorrect": false
+        }
+    ],
+    "context": "La France a organisé la première Coupe du Monde en 1930, tandis que l'UEFA Euro a été créé en 1960."
+    },
+    {
+    "question": "Quelle équipe a terminée à la troisième place de l'Euro 2020 ?",
+    "options": [
+        {
+        "text": "Espagne",
+        "isCorrect": true
+        },
+        {
+        "text": "Angleterre",
+        "isCorrect": false
+        },
+        {
+        "text": "Italie",
+        "isCorrect": false
+        },
+        {
+        "text": "Allemagne",
+        "isCorrect": false
+        }
+    ],
+    "context": "L'Espagne a terminé à la troisième place de l'Euro 2020 après avoir battu la Suède en demi-finale."
+    },
+    {
+    "question": "Quel était le nom du premier ballon officiel utilisé lors de l'Euro 2020 ?",
+    "options": [
+        {
+        "text": "Adidas Telstar Balls",
+        "isCorrect": false
+        },
+        {
+        "text": "Puma Uniforia",
+        "isCorrect": false
+        },
+        {
+        "text": "Nike Ordem 5",
+        "isCorrect": false
+        },
+        {
+        "text": "Nike Mechta",
+        "isCorrect": true
+        }
+    ],
+    "context": "Le ballon officiel utilisé lors de l'Euro 2020 était le Nike Mechta, qui avait été créé pour les compétitions internationales."
+    },
+    {
+    "question": "Quel pays a participé à tous les Euro depuis leur première édition en 1960 ?",
+    "options": [
+        {
+        "text": "Angleterre",
+        "isCorrect": true
+        },
+        {
+        "text": "Italie",
+        "isCorrect": false
+        },
+        {
+        "text": "Allemagne",
+        "isCorrect": false
+        },
+        {
+        "text": "Espagne",
+        "isCorrect": false
+        }
+    ],
+    "context": "L'Angleterre a participé à tous les Euro depuis leur première édition en 1960, ce qui fait d'elle le pays qui a participé à toutes les épreuves."
+    }
+]
+}

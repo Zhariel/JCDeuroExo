@@ -16,6 +16,7 @@ pdfplumber = "*"
 sentence-transformers = "*"
 langchain-huggingface = "*"
 langchain-chroma = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 ipykernel = "*"
