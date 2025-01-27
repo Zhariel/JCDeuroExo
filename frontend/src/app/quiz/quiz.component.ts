@@ -47,9 +47,11 @@ export class QuizComponent implements OnInit {
     combineLatest([
       this.quizDataService.currentEuroYear,
       this.quizDataService.currentModel,
-    ]).subscribe(([euroYear, model]) => {
+      this.quizDataService.currentRAG,
+    ]).subscribe(([euroYear, model, rag]) => {
       this.euroYear = euroYear;
       this.model = model;
+      this.enableRAG = rag;
       this.generateQuiz();
     });
   }

@@ -1,0 +1,114 @@
+ {
+   "quiz": [
+      {
+      "question": "Quel pays a obtenu le plus grand chiffre de points lors de l'Euro 2012 ?",
+      "options": [
+          {
+          "text": "Espagne",
+          "isCorrect": false
+          },
+          {
+          "text": "Allemagne",
+          "isCorrect": false
+          },
+          {
+          "text": "Portugal",
+          "isCorrect": false
+          },
+          {
+          "text": "France",
+          "isCorrect": true
+          }
+      ],
+      "context": "La France a atteint les demi-finales de l'Euro 2012 et a terminé à la troisième place."
+      },
+      {
+      "question": "Quel pays co-organisait l'Euro 2012 ?",
+      "options": [
+          {
+          "text": "Pays-Bas",
+          "isCorrect": false
+          },
+          {
+          "text": "Suède",
+          "isCorrect": true
+          },
+          {
+          "text": "Angleterre",
+          "isCorrect": false
+          },
+          {
+          "text": "Danemark",
+          "isCorrect": false
+          }
+      ],
+      "context": "L'Euro 2012 a été co-organisé par la Suède et la Pologne."
+      },
+      {
+      "question": "Quel était le meilleur buteur de l'Euro 2012 ?",
+      "options": [
+          {
+          "text": "Zlatan Ibrahimović",
+          "isCorrect": false
+          },
+          {
+          "text": "Robin van Persie",
+          "isCorrect": false
+          },
+          {
+          "text": "Mario Gómez",
+          "isCorrect": false
+          },
+          {
+          "text": "André-Pierre Gignac",
+          "isCorrect": true
+          }
+      ],
+      "context": "André-Pierre Gignac a marqué six buts lors de l'Euro 2012, ce qui fait de lui le meilleur buteur du tournoi."
+      },
+      {
+      "question": "Quel était le score du match entre la France et l'Angleterre en demi-finale ?",
+      "options": [
+          {
+          "text": "France 0 - Angleterre 1",
+          "isCorrect": false
+          },
+          {
+          "text": "France 2 - Angleterre 0",
+          "isCorrect": false
+          },
+          {
+          "text": "France 1 - Angleterre 2",
+          "isCorrect": true
+          },
+          {
+          "text": "France 3 - Angleterre 1",
+          "isCorrect": false
+          }
+      ],
+      "context": "La France a perdu la demi-finale de l'Euro 2012 contre l'Angleterre sur le score de 1 à 2."
+      },
+      {
+      "question": "Quel était le vainqueur de l'Euro 2012 ?",
+      "options": [
+          {
+          "text": "Espagne",
+          "isCorrect": false
+          },
+          {
+          "text": "Portugal",
+          "isCorrect": false
+          },
+          {
+          "text": "Allemagne",
+          "isCorrect": false
+          },
+          {
+          "text": "Italie",
+          "isCorrect": true
+          }
+      ],
+      "context": "L'Euro 2012 a été remporté par l'Italie en battant l'Espagne sur le score de 4 à 0."
+      }
+   ]
+   }

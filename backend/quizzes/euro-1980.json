@@ -1,0 +1,114 @@
+ {
+   "quiz": [
+      {
+         "question": "Quel est le nombre de buts marqués par Horst Hrubesch en finale de l'Euro 1980 ?",
+         "options": [
+            {
+               "text": "2 buts",
+               "isCorrect": true
+            },
+            {
+               "text": "3 buts",
+               "isCorrect": false
+            },
+            {
+               "text": "1 but",
+               "isCorrect": false
+            },
+            {
+               "text": "4 buts",
+               "isCorrect": false
+            }
+         ],
+         "context": "Horst Hrubesch a marqué deux buts en finale de l'Euro 1980 contre la Belgique, ce qui lui a permis d'être élu meilleur joueur de cette édition."
+      },
+      {
+         "question": "Quel est le nom du gardien titulaire de l'équipe d'Italie lors de l'Euro 1980 ?",
+         "options": [
+            {
+               "text": "Gianluigi Buffon",
+               "isCorrect": false
+            },
+            {
+               "text": "Dino Zoff",
+               "isCorrect": true
+            },
+            {
+               "text": "Francesco Totti",
+               "isCorrect": false
+            },
+            {
+               "text": "Gianluigi Donnarumma",
+               "isCorrect": false
+            }
+         ],
+         "context": "Dino Zoff a remporté l'Euro 1980 à 34 ans, ce qui en fait le gardien le plus âgé à avoir gagné une coupe du monde ou d'Europe."
+      },
+      {
+         "question": "Quelle équipe a remporté la petite finale de l'Euro 1980 ?",
+         "options": [
+            {
+               "text": "Allemagne de l'Ouest",
+               "isCorrect": false
+            },
+            {
+               "text": "Italie",
+               "isCorrect": false
+            },
+            {
+               "text": "Tchécoslovaquie",
+               "isCorrect": true
+            },
+            {
+               "text": "Belgique",
+               "isCorrect": false
+            }
+         ],
+         "context": "La Tchécoslovaquie a remporté la petite finale de l'Euro 1980 grâce à une séance de tirs au but."
+      },
+      {
+         "question": "Quel pays a été co-organisateur, avec la Belgique, du championnat d'Europe en 2000 ?",
+         "options": [
+            {
+               "text": "Allemagne",
+               "isCorrect": true
+            },
+            {
+               "text": "Espagne",
+               "isCorrect": false
+            },
+            {
+               "text": "France",
+               "isCorrect": false
+            },
+            {
+               "text": "Pays-Bas",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'UEFA Euro 2000 a été le premier championnat d'Europe à être organisé par plusieurs nations, avec la Belgique et les Pays-Bas comme co-organisateurs."
+      },
+      {
+         "question": "Quel est le nombre de buts marqués par Karl-Heinz Rummenigge lors de l'Euro 1980 ?",
+         "options": [
+            {
+               "text": "2 buts",
+               "isCorrect": false
+            },
+            {
+               "text": "3 buts",
+               "isCorrect": true
+            },
+            {
+               "text": "1 but",
+               "isCorrect": false
+            },
+            {
+               "text": "4 buts",
+               "isCorrect": false
+            }
+         ],
+         "context": "Karl-Heinz Rummenigge a marqué trois buts lors de l'Euro 1980, ce qui en fait le meilleur buteur allemand de cette édition."
+      }
+   ]
+}

@@ -50,7 +50,18 @@ export class HomeComponent implements OnInit {
       this.modelValue = currentModel.value;
     });
     this.enableRAG = this.quizDataService.getEnableRAG();
+  } 
+
+  validateEuroYear() {
+    if (!this.availableEuroYears.includes(this.euroYear)) {
+      alert(`Invalid year! Please select one of the following: ${this.availableEuroYears.join(', ')}`);
+      this.euroYear = 2020;
+    }
   }
+
+  onEnableRAGChange() {
+    this.quizDataService.setEnableRAG(this.enableRAG);
+  }  
 
   startQuiz() {
     const selectedModel = this.availableModels.find(
@@ -61,17 +72,12 @@ export class HomeComponent implements OnInit {
       this.quizDataService.setModel(selectedModel);
       this.quizDataService.setEnableRAG(this.enableRAG);
 
-      // console.log('Payload:', {
-      //   euroYear: this.euroYear,
-      //   model: selectedModel,
-      //   enableRAG: this.enableRAG
-      // });
       const queryParams = new URLSearchParams({
         model: selectedModel.value,
         euroYear: this.euroYear.toString(),
         enableRAG: this.enableRAG.toString(),
       });
-  
+
       this.router.navigate(['/quiz'], { queryParams: queryParams });
     } else {
       console.error('Selected model not found');
