@@ -18,6 +18,7 @@ def query_mistral(year: int, rag_cache: dict, enableRAG: bool):
         schema = json.load(file)
 
     try:
+        logger.info("Generating quiz with Mistral")
         response: ChatResponse = chat(
             model="mistral",
             messages=[
@@ -33,6 +34,7 @@ def query_mistral(year: int, rag_cache: dict, enableRAG: bool):
             f.write(response)
         quiz = json.loads(response)
         validate(instance=quiz, schema=schema)
+        logger.info("Done generating quiz")
         return quiz["quiz"]
     except ValidationError as e:
         print(f"Validation error: {e.message}")
@@ -55,6 +57,7 @@ def query_openai(year: int, api_key: str, rag_cache: dict, enableRAG: bool):
         schema = json.load(file)
 
     try:
+        logger.info("Generating quiz with ChatGPT")
         response = client.chat.completions.create(
             model="gpt-4", messages=[{"role": "user", "content": prompt}]
         )
@@ -67,6 +70,7 @@ def query_openai(year: int, api_key: str, rag_cache: dict, enableRAG: bool):
             
         quiz = json.loads(content)
         validate(instance=quiz, schema=schema)
+        logger.info("Done generating quiz")
         return quiz["quiz"]
     except ValidationError as e:
         print(f"Validation error: {e.message}")

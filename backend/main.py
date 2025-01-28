@@ -34,16 +34,12 @@ env = load_env()
 @app.get("/")
 def generate_quiz(model: str, euroYear: int, enableRAG: bool):
     if model == "mistral":
-        logger.info("Generating quiz with Mistral")
         response = query_mistral(euroYear, rag_data_cache, enableRAG)
-        logger.info("Done generating quiz")
         return response
 
     if model == "gpt-4o":
         openai_secret = env["OPENAI_SECRET"]
-        logger.info("Generating quiz with ChatGPT")
         response = query_openai(euroYear, openai_secret, rag_data_cache, enableRAG)
-        logger.info("Done generating quiz")
         return response
 
     if model == "mock":
