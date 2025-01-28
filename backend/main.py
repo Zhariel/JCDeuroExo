@@ -1,10 +1,12 @@
 import os
 import json
 import logging
+import openai
 
 import fastapi
 from fastapi.middleware.cors import CORSMiddleware
-from mistral_handler import query_mistral
+from llm_handler import query_mistral, query_openai
+from utils import load_env
 
 # Configure logging
 logging.basicConfig(
@@ -26,23 +28,23 @@ app.add_middleware(
 )
 
 rag_data_cache = {}
+env = load_env()
+
 
 @app.get("/")
 def generate_quiz(model: str, euroYear: int, enableRAG: bool):
-    print(enableRAG)
-    use_rag = True
     if model == "mistral":
-        try:
-            logger.info("Generating quiz with mistral")
-            quiz = query_mistral(euroYear, rag_data_cache, use_rag)
-            logger.info("Done generating quiz")
-            return quiz["quiz"]
-        except Exception as e:
-            logger.error(e)
-            return None
+        logger.info("Generating quiz with Mistral")
+        response = query_mistral(euroYear, rag_data_cache, enableRAG)
+        logger.info("Done generating quiz")
+        return response
 
     if model == "gpt-4o":
-        pass
+        openai_secret = env["OPENAI_SECRET"]
+        logger.info("Generating quiz with ChatGPT")
+        response = query_openai(euroYear, openai_secret, rag_data_cache, enableRAG)
+        logger.info("Done generating quiz")
+        return response
 
     if model == "mock":
         try:
