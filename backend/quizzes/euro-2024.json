@@ -1,0 +1,114 @@
+ {
+   "quiz": [
+      {
+         "question": "Quel est le plus jeune joueur à avoir marqué en phase finale de l'Euro 2024 ?",
+         "options": [
+            {
+               "text": "Luka Modrić, 38 ans et 289 jours",
+               "isCorrect": false
+            },
+            {
+               "text": "Lamine Yamal, 16 ans et 11 mois",
+               "isCorrect": true
+            },
+            {
+               "text": "Federico Dimarco, 23 ans et 4 mois",
+               "isCorrect": false
+            },
+            {
+               "text": "Kylian Mbappé, 25 ans et 1 semaine",
+               "isCorrect": false
+            }
+         ],
+         "context": "Lamine Yamal est né le 30 décembre 2007. Il a marqué contre la France en demi-finale à l'âge de 16 ans et 11 mois."
+      },
+      {
+         "question": "Quel record a été battu lors du match entre la Tchéquie et la Turquie ?",
+         "options": [
+            {
+               "text": "Plus grand nombre d'avertissements en un seul match de Coupe du monde",
+               "isCorrect": false
+            },
+            {
+               "text": "Plus grand nombre d'expulsions en un seul match de Ligue des champions",
+               "isCorrect": false
+            },
+            {
+               "text": "Plus grand nombre d'avertissements en un seul match de Championnat d'Europe (18 cartons jaunes et 2 cartons rouges)",
+               "isCorrect": true
+            },
+            {
+               "text": "Plus grand nombre de buts marqués en un seul match de Ligue des nations",
+               "isCorrect": false
+            }
+         ],
+         "context": "Le match entre la Tchéquie et la Turquie a battu le record du plus grand nombre d'avertissements en un seul match de Championnat d'Europe avec 18 cartons jaunes et 2 cartons rouges."
+      },
+      {
+         "question": "Quel est le pays hôte de l'Euro 2024 ?",
+         "options": [
+            {
+               "text": "Angleterre et Écosse",
+               "isCorrect": false
+            },
+            {
+               "text": "France et Allemagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Belgique et Pays-Bas",
+               "isCorrect": false
+            },
+            {
+               "text": "Espagne et Portugal",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'Euro 2024 n'a pas encore été organisé. Le pays hôte n'est pas connu."
+      },
+      {
+         "question": "Quel est le record du buteur le plus âgé en phase finale de l'Euro ?",
+         "options": [
+            {
+               "text": "Lamine Yamal, 16 ans et 11 mois",
+               "isCorrect": false
+            },
+            {
+               "text": "Federico Dimarco, 23 ans et 4 mois",
+               "isCorrect": false
+            },
+            {
+               "text": "Luka Modrić, 38 ans et 289 jours",
+               "isCorrect": true
+            },
+            {
+               "text": "Kylian Mbappé, 25 ans et 1 semaine",
+               "isCorrect": false
+            }
+         ],
+         "context": "Luka Modrić a marqué contre l'Italie lors de la troisième journée du groupe B à l'âge de 38 ans et 289 jours."
+      },
+      {
+         "question": "Quel pays co-organisait l'Euro 2000 ?",
+         "options": [
+            {
+               "text": "Angleterre et Écosse",
+               "isCorrect": false
+            },
+            {
+               "text": "France et Allemagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Belgique et Pays-Bas",
+               "isCorrect": true
+            },
+            {
+               "text": "Espagne et Portugal",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'Euro 2000 a été co-organisé par la Belgique et les Pays-Bas."
+      }
+   ]
+}

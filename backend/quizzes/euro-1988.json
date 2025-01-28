@@ -1,0 +1,114 @@
+ {
+   "quiz": [
+      {
+         "question": "En 1988, comment ont les Néerlandais qualifiés pour la finale du championnat d'Europe de football ?",
+         "options": [
+            {
+               "text": "En battant l'Angleterre en finale.",
+               "isCorrect": false
+            },
+            {
+               "text": "En battant l'Italie en finale.",
+               "isCorrect": false
+            },
+            {
+               "text": "En battant l'URSS en demi-finale et en finale.",
+               "isCorrect": false
+            },
+            {
+               "text": "En terminant deuxième de leur groupe derrière l'URSS et en battant la République d'Irlande lors du dernier match, décisif pour la qualification.",
+               "isCorrect": true
+            }
+         ],
+         "context": "Les Pays-Bas étaient les futurs finalistes néerlandais et soviétiques s'affrontent dès la première journée du groupe 2. L'URSS s'impose un à zéro mais les Pays-Bas parviennent à s'imposer cette fois en finale, deux buts à rien."
+      },
+      {
+         "question": "En 1988, qui était l'unique nation à être qualifiée pour la phase finale d'office ?",
+         "options": [
+            {
+               "text": "L'Allemagne de l'Ouest",
+               "isCorrect": true
+            },
+            {
+               "text": "La France",
+               "isCorrect": false
+            },
+            {
+               "text": "Les Pays-Bas",
+               "isCorrect": false
+            },
+            {
+               "text": "L'Italie",
+               "isCorrect": false
+            }
+         ],
+         "context": "Le pays organisateur était automatiquement qualifié pour la phase finale."
+      },
+      {
+         "question": "En 1988, comment était le classement des groupes ?",
+         "options": [
+            {
+               "text": "Les quatre premières équipes de chaque groupe étaient qualifiées pour les demi-finales.",
+               "isCorrect": false
+            },
+            {
+               "text": "Les deux premières équipes de chaque groupe étaient qualifiées pour les demi-finales.",
+               "isCorrect": true
+            },
+            {
+               "text": "Les trois premières équipes de chaque groupe étaient qualifiées pour les demi-finales.",
+               "isCorrect": false
+            },
+            {
+               "text": "Seule la première équipe de chaque groupe était qualifiée pour la finale.",
+               "isCorrect": false
+            }
+         ],
+         "context": "Les deux premières équipes de chaque groupe étaient qualifiées pour les demi-finales, et l'équipe gagnante de chaque demi-finale se rencontrait en finale."
+      },
+      {
+         "question": "En 1988, qui était le meilleur buteur du championnat ?",
+         "options": [
+            {
+               "text": "Marco van Basten",
+               "isCorrect": true
+            },
+            {
+               "text": "Ruud Gullit",
+               "isCorrect": false
+            },
+            {
+               "text": "Frank Rijkaard",
+               "isCorrect": false
+            },
+            {
+               "text": "Giuseppe Giannini",
+               "isCorrect": false
+            }
+         ],
+         "context": "Marco van Basten a marqué quatre buts lors du tournoi, ce qui lui a valu le titre de meilleur buteur."
+      },
+      {
+         "question": "En 1988, comment s'appelait la finale du championnat ?",
+         "options": [
+            {
+               "text": "La finale européenne des nations",
+               "isCorrect": true
+            },
+            {
+               "text": "Le championnat d'Europe",
+               "isCorrect": false
+            },
+            {
+               "text": "La coupe des nations européennes",
+               "isCorrect": false
+            },
+            {
+               "text": "Le grand championnat européen",
+               "isCorrect": false
+            }
+         ],
+         "context": "En 1988, la finale du championnat était connue sous le nom de la finale européenne des nations."
+      }
+   ]
+}

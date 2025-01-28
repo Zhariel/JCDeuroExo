@@ -1,0 +1,114 @@
+ {
+   "quiz": [
+      {
+         "question": "Quel joueur a été désigné meilleur joueur de l'Euro 2008 par l'UEFA?",
+         "options": [
+            {
+               "text": "Wesley Sneijder",
+               "isCorrect": false
+            },
+            {
+               "text": "Xavi Hernández",
+               "isCorrect": true
+            },
+            {
+               "text": "Andrés Iniesta",
+               "isCorrect": false
+            },
+            {
+               "text": "Cesc Fàbregas",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'UEFA a choisi Xavi Hernández comme meilleur joueur de la compétition en 2008."
+      },
+      {
+         "question": "Combien de joueurs était-il dans l'équipe-type de l'Euro 2008?",
+         "options": [
+            {
+               "text": "15",
+               "isCorrect": false
+            },
+            {
+               "text": "21",
+               "isCorrect": false
+            },
+            {
+               "text": "23",
+               "isCorrect": true
+            },
+            {
+               "text": "27",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'équipe-type de l'Euro 2008 comprenait 23 joueurs."
+      },
+      {
+         "question": "Dans quelle ville se tint le quart de finale Pays-Bas–Russie au stade St-Jacques de Bâle ?",
+         "options": [
+            {
+               "text": "Bâle",
+               "isCorrect": false
+            },
+            {
+               "text": "Zurich",
+               "isCorrect": true
+            },
+            {
+               "text": "Genève",
+               "isCorrect": false
+            },
+            {
+               "text": "Lucerne",
+               "isCorrect": false
+            }
+         ],
+         "context": "Il y eut plus de mille sièges vides lors du quart de finale Pays-Bas–Russie au stade St-Jacques de Bâle à Zurich."
+      },
+      {
+         "question": "Quel pays a utilisé des fumigènes dans les tribunes lors de l'Euro 2008?",
+         "options": [
+            {
+               "text": "France",
+               "isCorrect": false
+            },
+            {
+               "text": "Allemagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Espagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Croatie",
+               "isCorrect": true
+            }
+         ],
+         "context": "Des fumigènes ont été utilisés dans les tribunes lors de l'Euro 2008, ce qui a suscité des plaintes des directeurs de la SSR."
+      },
+      {
+         "question": "Quels deux pays co-organisèrent l'UEFA Euro 2008?",
+         "options": [
+            {
+               "text": "Angleterre et Écosse",
+               "isCorrect": false
+            },
+            {
+               "text": "France et Allemagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Belgique et Pays-Bas",
+               "isCorrect": false
+            },
+            {
+               "text": "Autriche et Suisse",
+               "isCorrect": true
+            }
+         ],
+         "context": "L'UEFA Euro 2008 a été le premier championnat d'Europe à être organisé par plusieurs nations, avec l'Autriche et la Suisse comme co-organisateurs."
+      }
+   ]
+}

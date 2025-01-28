@@ -28,6 +28,7 @@ export class ResultComponent implements OnInit {
     this.quizDataService.currentEuroYear.subscribe((currentEuroYear) => {
       this.euroYear = currentEuroYear;
     });
+    
     this.quizDataService.currentModel.subscribe((currentModel) => {
       this.model = currentModel;
     });

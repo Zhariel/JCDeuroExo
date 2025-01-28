@@ -1,8 +1,12 @@
+import os
 import json
 import logging
+import openai
 
 import fastapi
 from fastapi.middleware.cors import CORSMiddleware
+from llm_handler import query_mistral, query_openai
+from utils import load_env
 
 # Configure logging
 logging.basicConfig(
@@ -23,14 +27,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+rag_data_cache = {}
+env = load_env()
+
 
 @app.get("/")
-def generate_quiz(model: str, euroYear: int):
+def generate_quiz(model: str, euroYear: int, enableRAG: bool):
     if model == "mistral":
-        ...
+        response = query_mistral(euroYear, rag_data_cache, enableRAG)
+        return response
 
     if model == "gpt-4o":
-        ...
+        openai_secret = env["OPENAI_SECRET"]
+        response = query_openai(euroYear, openai_secret, rag_data_cache, enableRAG)
+        return response
 
     if model == "mock":
         try:

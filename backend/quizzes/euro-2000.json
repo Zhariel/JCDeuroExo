@@ -1,0 +1,112 @@
+{"quiz": [
+    {
+        "question": "Qui a marqué le 'but en or' qui a offert le titre à la France lors de l'Euro 2000?",
+        "options": [
+            {
+                "text": "Zinedine Zidane",
+                "isCorrect": false
+            },
+            {
+                "text": "Thierry Henry",
+                "isCorrect": false
+            },
+            {
+                "text": "David Trezeguet",
+                "isCorrect": true
+            },
+            {
+                "text": "Patrick Vieira",
+                "isCorrect": false
+            }
+        ],
+        "context": "David Trezeguet a marqué le fameux 'but en or' lors de la finale contre l'Italie, offrant le titre à l'équipe française."
+    },
+    {
+        "question": "Quel est le pays révèlation de ce tournoi?",
+        "options": [
+            {
+                "text": "Belgique",
+                "isCorrect": false
+            },
+            {
+                "text": "Italie",
+                "isCorrect": false
+            },
+            {
+                "text": "France",
+                "isCorrect": false
+            },
+            {
+                "text": "Portugal",
+                "isCorrect": true
+            }
+        ],
+        "context": "Le Portugal a surpris en atteignant les demi-finales après avoir terminé premier de son groupe en battant notamment l'Angleterre et l'Allemagne, le champion sortant."
+    },
+    {
+        "question": "Laquelle de ces équipes n’a pas réussi à passer le premier tour du tournoi ?",
+        "options": [
+            {
+                "text": "Angleterre",
+                "isCorrect": true
+            },
+            {
+                "text": "France",
+                "isCorrect": false
+            },
+            {
+                "text": "Espagne",
+                "isCorrect": false
+            },
+            {
+                "text": "Italie",
+                "isCorrect": false
+            }
+        ],
+        "context": "L'Angleterre et l'Allemagne n'ont pas réussi à passer le premier tour du Championnat d'Europe 2000."
+    },
+    {
+        "question": "Qui a été élu meilleur joueur du tournoi?",
+        "options": [
+            {
+                "text": "Zinedine Zidane",
+                "isCorrect": true
+            },
+            {
+                "text": "Thierry Henry",
+                "isCorrect": false
+            },
+            {
+                "text": "David Trezeguet",
+                "isCorrect": false
+            },
+            {
+                "text": "Patrick Vieira",
+                "isCorrect": false
+            }
+        ],
+        "context": "Zinedine Zidane, membre de l'équipe française, a été élu meilleur joueur du tournoi."
+    },
+    {
+        "question": "Qui est l'équipe championne du monde en titre en 2000 ?",
+        "options": [
+            {
+                "text": "Allemagne",
+                "isCorrect": false
+            },
+            {
+                "text": "Brésil",
+                "isCorrect": false
+            },
+            {
+                "text": "Italie",
+                "isCorrect": false
+            },
+            {
+                "text": "France",
+                "isCorrect": true
+            }
+        ],
+        "context": "La France était l'équipe championne du monde en titre, ayant remporté la Coupe du monde de la FIFA 1998."
+    }
+]}

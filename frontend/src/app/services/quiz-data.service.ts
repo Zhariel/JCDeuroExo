@@ -23,11 +23,13 @@ export class QuizDataService {
   });
   private score = new BehaviorSubject<number>(0);
   private total = new BehaviorSubject<number>(5);
+  private enableRAG = new BehaviorSubject<boolean>(true);
 
   currentEuroYear = this.euroYear.asObservable();
   currentModel = this.model.asObservable();
   currentScore = this.score.asObservable();
   currentTotal = this.total.asObservable();
+  currentRAG = this.enableRAG.asObservable();
 
   constructor() {}
 
@@ -39,12 +41,20 @@ export class QuizDataService {
     return this.availableModels;
   }
 
+  getEnableRAG(): boolean {
+    return this.enableRAG.value;
+  }
+
   setEuroYear(euroYear: number) {
     this.euroYear.next(euroYear);
   }
 
   setModel(model: Model) {
     this.model.next(model);
+  }
+
+  setEnableRAG(value: boolean) {
+    this.enableRAG.next(value);
   }
 
   setScore(score: number) {

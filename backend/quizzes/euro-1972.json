@@ -1,0 +1,114 @@
+ {
+    "quiz": [
+        {
+            "question": "Quel joueur a été désigné comme l'élément clé de l'Euro 1972 par l'UEFA ?",
+            "options": [
+                {
+                    "text": "Evgueni Roudakov",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Revaz Dzodzouachvili",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Franz Beckenbauer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Gerd Müller",
+                    "isCorrect": true
+                }
+            ],
+            "context": "L'UEFA a désigné l'allemand Gerd Müller comme joueur clé de la compétition[1]."
+        },
+        {
+            "question": "Quels pays ont affronté en demi-finale lors du championnat d'Europe des nations de football 1972 ?",
+            "options": [
+                {
+                    "text": "RFA contre Yougoslavie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Yougoslavie contre Italie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Italie contre RFA",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Belgique contre Angleterre",
+                    "isCorrect": false
+                }
+            ],
+            "context": "La phase finale du championnat d'Europe des nations de football 1972 se déroule en Belgique à partir des demi-finales du 14 au 18 juin."
+        },
+        {
+            "question": "Quel équipe a battu l'Angleterre lors du championnat d'Europe des nations de football 1972 ?",
+            "options": [
+                {
+                    "text": "Italie",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Yougoslavie",
+                    "isCorrect": true
+                },
+                {
+                    "text": "RFA",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Belgique",
+                    "isCorrect": false
+                }
+            ],
+            "context": "L'Angleterre a été écartée en quarts de finale par l'équipe de Yougoslavie lors du championnat d'Europe des nations de football 1972."
+        },
+        {
+            "question": "Quel joueur marqua le premier but de la rencontre entre l'Angleterre et l'Italie à Wembley en 1968 ?",
+            "options": [
+                {
+                    "text": "Evgueni Roudakov",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Revaz Dzodzouachvili",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Franz Beckenbauer",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Peter Osgood",
+                    "isCorrect": true
+                }
+            ],
+            "context": "La RFA remporte son premier titre européen en 1972, écartant entre autres l'Angleterre en quarts de finale après une victoire 3-1 à Wembley. Le but d'ouverture a été marqué par Peter Osgood."
+        },
+        {
+            "question": "Quels joueurs font partie de la liste des 12 grands défenseurs de l'histoire du football établie par la FIFA en 1999 ?",
+            "options": [
+                {
+                    "text": "Mourtaz Khourtsilava",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Paul Breitner",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Uli Hoeneß",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Herbert Wimmer",
+                    "isCorrect": false
+                }
+            ],
+            "context": "La liste des 12 grands défenseurs de l'histoire du football établie par la FIFA en 1999 comprenait Franz Beckenbauer, Paul Breitner et Uli Hoeneß."
+        }
+    ]
+   }
