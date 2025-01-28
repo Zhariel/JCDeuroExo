@@ -1,114 +1,114 @@
-{
-"quiz": [
-    {
-    "question": "Quel pays a gagné l'Euro 2020 ?",
-    "options": [
-        {
-        "text": "Angleterre",
-        "isCorrect": false
-        },
-        {
-        "text": "Italie",
-        "isCorrect": true
-        },
-        {
-        "text": "Allemagne",
-        "isCorrect": false
-        },
-        {
-        "text": "Espagne",
-        "isCorrect": false
-        }
-    ],
-    "context": "L'équipe d'Italie a gagné la finale de l'Euro 2020 en battant l'Angleterre aux tirs au but."
-    },
-    {
-    "question": "Quel était le premier pays à organiser une Coupe du Monde ou une Coupe d'Europe ?",
-    "options": [
-        {
-        "text": "France",
-        "isCorrect": true
-        },
-        {
-        "text": "Angleterre",
-        "isCorrect": false
-        },
-        {
-        "text": "Allemagne",
-        "isCorrect": false
-        },
-        {
-        "text": "Italie",
-        "isCorrect": false
-        }
-    ],
-    "context": "La France a organisé la première Coupe du Monde en 1930, tandis que l'UEFA Euro a été créé en 1960."
-    },
-    {
-    "question": "Quelle équipe a terminée à la troisième place de l'Euro 2020 ?",
-    "options": [
-        {
-        "text": "Espagne",
-        "isCorrect": true
-        },
-        {
-        "text": "Angleterre",
-        "isCorrect": false
-        },
-        {
-        "text": "Italie",
-        "isCorrect": false
-        },
-        {
-        "text": "Allemagne",
-        "isCorrect": false
-        }
-    ],
-    "context": "L'Espagne a terminé à la troisième place de l'Euro 2020 après avoir battu la Suède en demi-finale."
-    },
-    {
-    "question": "Quel était le nom du premier ballon officiel utilisé lors de l'Euro 2020 ?",
-    "options": [
-        {
-        "text": "Adidas Telstar Balls",
-        "isCorrect": false
-        },
-        {
-        "text": "Puma Uniforia",
-        "isCorrect": false
-        },
-        {
-        "text": "Nike Ordem 5",
-        "isCorrect": false
-        },
-        {
-        "text": "Nike Mechta",
-        "isCorrect": true
-        }
-    ],
-    "context": "Le ballon officiel utilisé lors de l'Euro 2020 était le Nike Mechta, qui avait été créé pour les compétitions internationales."
-    },
-    {
-    "question": "Quel pays a participé à tous les Euro depuis leur première édition en 1960 ?",
-    "options": [
-        {
-        "text": "Angleterre",
-        "isCorrect": true
-        },
-        {
-        "text": "Italie",
-        "isCorrect": false
-        },
-        {
-        "text": "Allemagne",
-        "isCorrect": false
-        },
-        {
-        "text": "Espagne",
-        "isCorrect": false
-        }
-    ],
-    "context": "L'Angleterre a participé à tous les Euro depuis leur première édition en 1960, ce qui fait d'elle le pays qui a participé à toutes les épreuves."
-    }
-]
+ {
+   "quiz": [
+      {
+         "question": "Quel est le nom du gardien de but allemand qui a porté un brassard LGBT durant l'Euro 2020?",
+         "options": [
+            {
+               "text": "Thomas Müller",
+               "isCorrect": false
+            },
+            {
+               "text": "Toni Kroos",
+               "isCorrect": false
+            },
+            {
+               "text": "Manuel Neuer",
+               "isCorrect": true
+            },
+            {
+               "text": "Joshua Kimmich",
+               "isCorrect": false
+            }
+         ],
+         "context": "Manuel Neuer a porté un brassard LGBT lors des matches de l'Euro 2020 en symbole de diversité."
+      },
+      {
+         "question": "Quel pays a refusé la demande de l'UEFA d'illuminer le stade du championnat d'Europe en signe de protestation contre les lois anti-LGBTQI ?",
+         "options": [
+            {
+               "text": "Allemagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Hongrie",
+               "isCorrect": true
+            },
+            {
+               "text": "Belgique",
+               "isCorrect": false
+            },
+            {
+               "text": "Pays-Bas",
+               "isCorrect": false
+            }
+         ],
+         "context": "La ville de Munich a demandé à l'UEFA d'illuminer le stade de l'Allianz Arena aux couleurs LGBTQIA+ durant le match Allemagne-Hongrie, mais l'UEFA a refusé."
+      },
+      {
+         "question": "Quel était le nom du gardien de but italien qui a remporté l'Euro 2020 ?",
+         "options": [
+            {
+               "text": "Gianluigi Buffon",
+               "isCorrect": false
+            },
+            {
+               "text": "Gianluigi Donnarumma",
+               "isCorrect": true
+            },
+            {
+               "text": "Wojciech Szczesny",
+               "isCorrect": false
+            },
+            {
+               "text": "David De Gea",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'Italie a remporté l'Euro 2020 en battant l'Angleterre lors de la finale."
+      },
+      {
+         "question": "Quel est le pays hôte du prochain championnat d'Europe ?",
+         "options": [
+            {
+               "text": "Allemagne et Autriche",
+               "isCorrect": false
+            },
+            {
+               "text": "Espagne et Portugal",
+               "isCorrect": false
+            },
+            {
+               "text": "France et Angleterre",
+               "isCorrect": false
+            },
+            {
+               "text": "Angleterre seule",
+               "isCorrect": true
+            }
+         ],
+         "context": "Le prochain championnat d'Europe est prévu pour avoir lieu en Angleterre, en 2024."
+      },
+      {
+         "question": "Quel est le seul pays à avoir remporté l'Euro et la Coupe du monde ?",
+         "options": [
+            {
+               "text": "Espagne",
+               "isCorrect": false
+            },
+            {
+               "text": "Allemagne",
+               "isCorrect": true
+            },
+            {
+               "text": "France",
+               "isCorrect": false
+            },
+            {
+               "text": "Angleterre",
+               "isCorrect": false
+            }
+         ],
+         "context": "L'Allemagne est le seul pays à avoir remporté l'Euro et la Coupe du monde."
+      }
+   ]
 }

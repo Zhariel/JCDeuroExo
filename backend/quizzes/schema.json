@@ -1,0 +1,419 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "quiz": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  }
+                ]
+              },
+              "context": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "options",
+              "context"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  }
+                ]
+              },
+              "context": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "options",
+              "context"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  }
+                ]
+              },
+              "context": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "options",
+              "context"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  }
+                ]
+              },
+              "context": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "options",
+              "context"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "options": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string"
+                      },
+                      "isCorrect": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "isCorrect"
+                    ]
+                  }
+                ]
+              },
+              "context": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "options",
+              "context"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "quiz"
+    ]
+  }

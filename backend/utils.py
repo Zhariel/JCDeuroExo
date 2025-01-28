@@ -10,10 +10,13 @@ def retrieve_euro_data(year):
     url = ""
     if year == 1960 or year == 1964:
         url = (
-            "https://fr.wikipedia.org/wiki/Coupe_d%27Europe_des_nations_de_football_"+ str(year)
+            "https://fr.wikipedia.org/wiki/Coupe_d%27Europe_des_nations_de_football_"
+            + str(year)
         )
     else:
-        url = "https://fr.wikipedia.org/wiki/Championnat_d%27Europe_de_football_" + str(year)
+        url = "https://fr.wikipedia.org/wiki/Championnat_d%27Europe_de_football_" + str(
+            year
+        )
 
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -21,9 +24,9 @@ def retrieve_euro_data(year):
     return text
 
 
-def rag_pipeline(year: int, rag_cache: dict, enableRAG: bool):
+def rag_pipeline(year: int, rag_cache: dict, enableRAG: bool, name: str):
     prompt = (
-        open(os.path.join("..", "prompt-3.txt"), "r")
+        open(os.path.join("..", name + ".txt"), "r")
         .read()
         .replace("{{euroYear}}", str(year))
     )

@@ -11,12 +11,13 @@ Donne ta réponse UNIQUEMENT sous la forme d'un objet JSON avec l'unique clé "q
     - "text" : une chaîne de caractères représentant le texte de l'option de réponse
     - "isCorrect" : un booléen indiquant si l'option de réponse est correcte (true) ou incorrecte (false).
 - "context" : une chaîne de caractères fournissant un contexte ou une explication supplémentaire concernant la question
-pas de blabla donne juste le json
+
+pas de blabla donne juste le json. fais des phrases courtes et vas droit au but.
 
 {"quiz": [
     # Exemple d'une seule question. Il faut 5 questions, 4 réponses possibles. 1 vraie, 3 fausses.
     {
-    "question": "Dans quels pays s'est tenu l'UEFA Euro {{euroYear}} ?",
+    "question": "Dans quels pays s'est tenu l'UEFA Euro 2000 ?",
     "options": [
         {
         "text": "Angleterre et Écosse",
@@ -35,7 +36,7 @@ pas de blabla donne juste le json
         "isCorrect": false
         }
     ],
-    "context": "L'UEFA Euro {{euroYear}} a été le premier championnat d'Europe à être organisé par plusieurs nations, avec la Belgique et les Pays-Bas comme co-organisateurs."
+    "context": "L'UEFA Euro 2000 a été le premier championnat d'Europe à être organisé par plusieurs nations, avec la Belgique et les Pays-Bas comme co-organisateurs."
     }
 ]
 }
